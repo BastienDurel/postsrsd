@@ -1,0 +1,15 @@
+Source: postsrsd
+Section: unknown
+Priority: extra
+Maintainer: Bastien Durel <bastien@durel.org>
+Build-Depends: debhelper (>= 8.0.0), cmake
+Standards-Version: 3.9.3
+Homepage: https://github.com/roehling/postsrsd
+#Vcs-Git: git://git.debian.org/collab-maint/postsrsd.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/postsrsd.git;a=summary
+
+Package: postsrsd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, postfix, dd, openssl
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
