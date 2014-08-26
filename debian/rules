@@ -17,3 +17,5 @@ export EXTRA_PARAMS=-DCMAKE_INSTALL_PREFIX=/usr
 override_dh_auto_install:
 	$(MAKE) DESTDIR=$$(pwd)/debian/postsrsd install
 	rm -f $$(pwd)/debian/postsrsd/etc/postsrsd.secret
+	rm -f $$(pwd)/debian/postsrsd/etc/init.d/.depend.*
+	rm -Rf $$(pwd)/debian/postsrsd/etc/rc*.d

@@ -10,6 +10,6 @@ Homepage: https://github.com/roehling/postsrsd
 
 Package: postsrsd
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, postfix, dd, openssl
+Depends: ${shlibs:Depends}, ${misc:Depends}, postfix, coreutils, openssl
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>

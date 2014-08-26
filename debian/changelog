@@ -1,4 +1,11 @@
-postsrsd (1.1-1) stable; urgency=low
+postsrsd (1.1-3) stable; urgency=low
+
+  * Remove bad files
+  * Coreect depends for dd
+
+ -- Bastien Durel <bastien@durel.org>  Tue, 26 Aug 2014 22:35:13 +0200
+
+postsrsd (1.1) stable; urgency=low
 
   * Initial release
 
